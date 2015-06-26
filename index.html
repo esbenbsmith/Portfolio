@@ -6,6 +6,7 @@
 </head>
 
 <body>
+
 	 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -16,7 +17,6 @@
     <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Shop</a></li>
       </ul>
@@ -28,21 +28,115 @@
     		<div class="row">
    	     		<div class="col-sm-6">
               <img class="me" src="images/me.jpg">
-          			<p>Welcome to My Portfolio</p>
-    	    	</div>
+              <p class="profile">Name: Esben Baden Smith</p>
+              <p class="profile">Current Location: Berkeley,CA</p>
+              <p class="profile">Education:Junior<br> Economics/International studies<br> UC San Diego</p>
+              <br>
+              <br>
+              <br>
+              <br>
+               <p id="welcome">Welcome to My Portfolio</p>
+
+               <p id="latest">Latest:</p>
+                
+
+                <p id="plans">I will be uploading 3 projects from the General Assembly WDI, that I will be attending from June 22 to September 11 2015 in San Francisco. </p>
+                <p><a href="">Here</a> is my Github repository</p>
+                <p><a href="">Here</a> is my Facebook Account</p>
+                <p><a href="">Here</a> is my Twitter Handle</p>
+
+                <p>____________________________________________________________________________</p>
+          			
+            </div>
    	     		<div class="col-sm-6">
-   	       			<img class="SF" src="http://www.salesforcefoundation.org/wp-content/uploads/2014/09/Things-to-do-in-San-Francisco-during-Dreamforce.jpg">
-    	    	</div>
-    	  	</div>
-    	  	<div class="row">
+                <p class="profile">I am currently taking classes at:</p>
+             
+                 <img class="GA" src="https://pbs.twimg.com/profile_images/520237476615438337/ZUJIhUXM.png">
+                 <br>
+                 <p id="WDI"><a href="https://www.generalassemb.ly">Here</a> is a link to the General Assembly Website</p><br>
+                 <p><a href="http://www.sfgate.com/business/article/At-General-Assembly-classrooms-built-for-change-6222967.php">Here</a> is a link to an article about General Assembly from the SF Gate</p>
+              
+          
+                <p>____________________________________________________________________________</p>
+    	    	
+    	       </div>
+        </div>
+    
+    	   <div class="row">
    	     		<div class="col-sm-6">
-          			<p>My name is Esben Smith and this page was created to make a log of all the work I will be doing as a web developer. There is nothing up yet, but it will come soon. I am practicing my skills at General Assembly at the moment.</p>
-                <img class="GA" src="https://pbs.twimg.com/profile_images/520237476615438337/ZUJIhUXM.png">
+            <p id="first">Final Project</p><br>
+            <img src="images/DJSET.jpg"><br>
+            <p id="second">Automatic atmosphere sensitive DJ application</p>
+            <p>There will be a total of 3 projects, but I only know what the final project will be about. My idea is an automatic DJ, that plays tunes that go well with the setting of a hangout, party, lounge, or whatever event requiring ambient music.
+                <br>
+                 <br>
+            
+
+              The application is projected to extract data from many different measurements that it will use to make a choice. Some examples could be:
+              <br>
+               <br>
+     
+              - Temperature
+              <br>
+              - User desires (genre, type of party etc.)
+              <br>
+              - Weather
+              <br>
+              - Movement measured from Webcam
+              <br>
+              - Microphone to determine loudness and mood
+              <br>
+              - Time of day
+              <br>
+              - And many more factors that may influence the human music     experience
+              
+            </p>
+            <p>
+              Final Project<br>
+              Click <a href="url">here</a> to Download pdf
+
+             <p>  
     	    	</div>
+          
    	     		<div class="col-sm-6">
-   	       			<img class="NERD" src="http://nerdreactor.com/wp-content/uploads/2014/05/48661_Nerd-Alertlow.jpg">
-    	    	</div>
-    	  	</div>
-    	</div>
+            
+  
+              <div id="container">
+                
+                <div id="contact-form" class="clearfix">
+                  <h1>Get In Touch!</h1>
+                  <h2>I would love to hear your thoughts and ideas for my projects, please fill out the contact form.</h2>
+                  <ul id="errors" class="">
+                      <li id="info">There were some problems with your form submission:</li>
+                  </ul>
+                  <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+                  <form method="post" action="process.php">
+                      <label for="name">Name: <span class="required">*</span></label>
+                      <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus" />
+                       
+                      <label for="email">Email Address: <span class="required">*</span></label>
+                      <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required" />
+                       
+                      <label for="telephone">Telephone: </label>
+                      <input type="tel" id="telephone" name="telephone" value="" />
+                       
+                      <label for="enquiry">Enquiry: </label>
+                      <select id="enquiry" name="enquiry">
+                          <option value="general">General</option>
+                          <option value="sales">Sales</option>
+                          <option value="support">Support</option>
+                      </select>
+                       
+                      <label for="message">Message: <span class="required">*</span></label>
+                      <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+                       
+                      <span id="loading"></span>
+                      <input type="submit" value="Holla!" id="submit-button" />
+                      <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+                  </form>
+              </div>
+        	    	</div>
+        	  	</div>
+      </div>
     
 </body>
